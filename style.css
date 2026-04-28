@@ -1,5 +1,88 @@
-/*COLORS:
-Header background - #FFDBAA
-button - #805215
-Header Text - #553100
-Main background - #D4A76A*/
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #D4A76A;
+}
+
+header {
+  height: 150px;
+  background-color: #FFDBAA;
+  border-bottom: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 55px;
+}
+
+h1 {
+  color: #553100;
+  font-size: 48px;
+  letter-spacing: 8px;
+  margin: 0;
+}
+
+nav a {
+  background-color: #805215;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 28px;
+  padding: 24px 32px;
+  margin-left: 45px;
+  display: inline-block;
+}
+
+main {
+  padding: 45px 85px 65px;
+}
+
+.card-row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.card {
+  background-color: white;
+  width: 360px;
+  padding: 18px 22px 22px;
+  box-shadow: 0 0 15px #6b4b22;
+}
+
+.card h2,
+.about h2 {
+  text-align: center;
+  font-size: 28px;
+  margin: 0 0 15px;
+}
+
+.card p,
+.about p {
+  font-size: 24px;
+  margin: 0 0 25px;
+}
+
+button {
+  background-color: #805215;
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  width: 100%;
+  padding: 18px;
+  border: 2px solid black;
+}
+
+.about {
+  background-color: white;
+  padding: 22px;
+  box-shadow: 0 0 15px #6b4b22;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card button {
+  margin-top: auto;
+}
